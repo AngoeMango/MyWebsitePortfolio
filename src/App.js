@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          slay
+          slay2
         </p>
         <a
           className="App-link"
