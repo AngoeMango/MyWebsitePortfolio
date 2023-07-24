@@ -6,6 +6,14 @@ body {
 	-webkit-animation: GradientAnimation 15s ease infinite;
 	-moz-animation: GradientAnimation 15s ease infinite;
 	animation: GradientAnimation 15s ease infinite;
+	text-align: center;
+}
+
+.center-page {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
 }
 
 @-webkit-keyframes GradientAnimation {

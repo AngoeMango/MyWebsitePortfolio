@@ -1,82 +1,46 @@
 .navbar {
     width: 100%;
     overflow: hidden;
+    bottom: 0;
+    position: fixed;
+    background-color: pink;
+    margin: 0;
 }
 
 @font-face {
   	font-family: font1;
-  	src: url(POPSTAR.TTF);
+  	src: url(./fonts/POPSTAR.TTF);
 }
 
 .navbar a {
-    font-family: font1;
     float: right;
     font-size: 16px;
     color: white;
     text-align: center;
-	margin: 2px;
-    padding: 14px 16px;
-    text-decoration: none;
-	transition-duration: 0.4s;
-}
-
-.site-title {
-    font-family: font1;
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
-.dropdown {
-    font-family: font1;
+.topnav-right {
     float: right;
-    overflow: hidden;
+    margin: 0px 10px;
 }
 
-.dropdown .dropbutton {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-	transition-duration: 0.4s;
+.button98 {
+    background: pink;
+    margin: 5px 3px;
+    font-weight: bold;
+    border: 2px solid #7c7c7c;
+    border-top-color: #fff;
+    border-left-color: #fff;
+    text-align: justify;
+    padding: 8px;
+    font: font1;
 }
 
-.navbar a:hover, .dropdown:hover .dropbutton {
-    background-color: white;
-    color: black;
-	border-radius: 30px;
+.button98:hover {
+    background: darken(#c0c0c0, 10%);
+    border: 2px solid #7c7c7c;
+    border-bottom-color: #fff;
+    border-right-color: #fff;
 }
 
-.dropcontent {
-	border-radius: 30px;
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-  
-.dropcontent a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: right;
-}
-  
-.dropcontent a:hover {
-    background-color: #ddd;
-}
-  
-.dropdown:hover .dropcontent {
-    display: block;
-}
