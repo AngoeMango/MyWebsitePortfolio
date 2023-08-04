@@ -1,15 +1,19 @@
 import './NavbarStyles.css'
+import Clock from './Clock.js'
 import windowslogo from './images/windows-0.png'
 
 function Navbar() {
 	return (
 		<nav className = "navbar">
-			<div class = "topnav-left">
+			<div class = "nav-left">
 				<button class = "button98">
-					<img src = {windowslogo} alt-text = "windowslogo"></img>
-					Angeleeca
+					slay<img src = {windowslogo} alt-text = "windowslogo" class = "startbuttonimg"></img>
 				</button>
 			</div>
+			<div class = "nav-right">
+				<Clock></Clock>
+			</div>
+
 		</nav>
 	)
 }

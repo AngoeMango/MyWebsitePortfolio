@@ -8,9 +8,10 @@
 }
 
 @font-face {
-  	font-family: font1;
+  	font-family: font2;
   	src: url(./fonts/POPSTAR.TTF);
 }
+
 
 .navbar a {
     float: right;
@@ -20,9 +21,11 @@
     text-decoration: none;
 }
 
-.topnav-right {
-    float: right;
+.nav-left {
+    float: left;
     margin: 0px 10px;
+    border: 2px;
+    border-style: none groove none none;
 }
 
 .button98 {
@@ -33,8 +36,7 @@
     border-top-color: #fff;
     border-left-color: #fff;
     text-align: justify;
-    padding: 8px;
-    font: font1;
+    font-family: font2;
 }
 
 .button98:hover {
@@ -42,5 +44,12 @@
     border: 2px solid #7c7c7c;
     border-bottom-color: #fff;
     border-right-color: #fff;
+}
+
+.nav-right {
+    float: right;
+    margin: 0px 10px;
+    border: 2px;
+    border-style: none groove none none;
 }
 

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: font1;
+    src: url(./fonts/WindowsRegular.ttf);
+}
+
+.clock98 {
+    background: pink;
+    margin: 5px 3px;
+    font-weight: bold;
+    border: 1px solid #7c7c7c;
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+    text-align: justify;
+    font-family: font1;
+}
